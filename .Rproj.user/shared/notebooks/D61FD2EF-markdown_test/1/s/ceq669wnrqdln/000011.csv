@@ -1,0 +1,6 @@
+"0","library(terra)"
+"0","library(here)"
+"0","jan<-terra::rast(here(""prac3_data"", ""wc2.1_5m_tavg_01.tif""))"
+"2","Warning: /Users/apple/Desktop/ucl_postgraduated/TERM_1/Geographic Information Syttems and Science/github_local/prac3_data/wc2.1_5m_tavg_01.tif: No such file or directory (GDAL error 4)"
+"2","错误: [rast] file does not exist: /Users/apple/Desktop/ucl_postgraduated/TERM_1/Geographic Information Syttems and Science/github_local/prac3_data/wc2.1_5m_tavg_01.tif
+"

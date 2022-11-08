@@ -1,0 +1,20 @@
+---
+title: "Untitled"
+output:
+  html_document: default
+  pdf_document: default
+  word_document: default
+date: "2022-11-08"
+---
+
+
+*New Code chunk: "command + ALT + i"*
+```{r}
+library(terra)
+library(here)
+jan<-terra::rast(here("prac3_data", "wc2.1_5m_tavg_01.tif"))
+# have a look at the raster layer jan
+plot(jan)
+```
+
+
